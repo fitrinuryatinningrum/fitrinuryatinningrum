@@ -84,8 +84,8 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
 | **PID Tuning & Design** | ![PID](https://img.shields.io/badge/PID-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
-| **MATLAB / Simulink** | ![MATLAB](https://img.shields.io/badge/MATLAB-75%25-FFC300?style=flat-square&labelColor=1F2328) | 75% |
-| **Fuzzy Logic (Sugeno/Mamdani)** | ![Fuzzy](https://img.shields.io/badge/Fuzzy-55%25-FFC300?style=flat-square&labelColor=1F2328) | 55% |
+| **MATLAB / Simulink** | ![MATLAB](https://img.shields.io/badge/MATLAB-75%25-FFC300?style=flat-square&labelColor=1F2328) | 55% |
+| **Fuzzy Logic (Sugeno/Mamdani)** | ![Fuzzy](https://img.shields.io/badge/Fuzzy-55%25-FFC300?style=flat-square&labelColor=1F2328) | 85% |
 | **System Modeling & Transfer Function** | ![Modeling](https://img.shields.io/badge/Modeling-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
 | **State-Space & Stability Analysis** | ![StateSpace](https://img.shields.io/badge/State--Space-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
 
@@ -93,27 +93,27 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
-| **C / C++** | ![C](https://img.shields.io/badge/C_/_C%2B%2B-78%25-FFC300?style=flat-square&labelColor=1F2328) | 78% |
-| **Microcontroller Firmware (ESP32/STM32)** | ![MCU](https://img.shields.io/badge/Firmware-72%25-FFC300?style=flat-square&labelColor=1F2328) | 72% |
+| **C / C++** | ![C](https://img.shields.io/badge/C_/_C%2B%2B-78%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
+| **Microcontroller Firmware (ESP32)** | ![MCU](https://img.shields.io/badge/Firmware-72%25-FFC300?style=flat-square&labelColor=1F2328) | 90% |
 | **FreeRTOS** | ![RTOS](https://img.shields.io/badge/FreeRTOS-45%25-58A6FF?style=flat-square&labelColor=1F2328) | 45% |
-| **Communication (I2C/SPI/UART/CAN)** | ![Comm](https://img.shields.io/badge/Comms-68%25-FFC300?style=flat-square&labelColor=1F2328) | 68% |
-| **PCB Design (KiCad)** | ![PCB](https://img.shields.io/badge/PCB-40%25-58A6FF?style=flat-square&labelColor=1F2328) | 40% |
+| **Communication (I2C/SPI/UART/CAN)** | ![Comm](https://img.shields.io/badge/Comms-68%25-FFC300?style=flat-square&labelColor=1F2328) | 80% |
+| **PCB Design (KiCad)** | ![PCB](https://img.shields.io/badge/PCB-40%25-58A6FF?style=flat-square&labelColor=1F2328) | 90% |
 
 ### 🌐 IoT & Connectivity
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
 | **MQTT & Broker** | ![MQTT](https://img.shields.io/badge/MQTT-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-| **REST API / JSON** | ![REST](https://img.shields.io/badge/REST-65%25-FFC300?style=flat-square&labelColor=1F2328) | 65% |
-| **ESP-NOW / Wi-Fi / BLE** | ![Wireless](https://img.shields.io/badge/Wireless-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
-| **Dashboard & Telemetry** | ![Dashboard](https://img.shields.io/badge/Dashboard-45%25-58A6FF?style=flat-square&labelColor=1F2328) | 45% |
-| **Telegram Bot Integration** | ![Telegram](https://img.shields.io/badge/Telegram-55%25-FFC300?style=flat-square&labelColor=1F2328) | 55% |
+| **REST API / JSON** | ![REST](https://img.shields.io/badge/REST-65%25-FFC300?style=flat-square&labelColor=1F2328) | 80% |
+| **ESP-NOW / Wi-Fi / BLE** | ![Wireless](https://img.shields.io/badge/Wireless-60%25-FFC300?style=flat-square&labelColor=1F2328) | 80% |
+| **Dashboard & Telemetry** | ![Dashboard](https://img.shields.io/badge/Dashboard-45%25-58A6FF?style=flat-square&labelColor=1F2328) | 85% |
+| **Telegram Bot Integration** | ![Telegram](https://img.shields.io/badge/Telegram-55%25-FFC300?style=flat-square&labelColor=1F2328) | 98% |
 
 ### 🤖 AI & Autonomous Agents
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
-| **Hermes Agent (Nous Research)** | ![Hermes](https://img.shields.io/badge/Hermes%20Agent-65%25-FFC300?style=flat-square&labelColor=1F2328) | 65% |
+| **Hermes Agent (Nous Research)** | ![Hermes](https://img.shields.io/badge/Hermes%20Agent-65%25-FFC300?style=flat-square&labelColor=1F2328) | 95% |
 | **LLM Tool Use / Function Calling** | ![ToolUse](https://img.shields.io/badge/Tool%20Use-58%25-FFC300?style=flat-square&labelColor=1F2328) | 58% |
 | **Prompt Engineering** | ![Prompt](https://img.shields.io/badge/Prompt%20Eng-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
 | **MCP (Model Context Protocol)** | ![MCP](https://img.shields.io/badge/MCP-40%25-58A6FF?style=flat-square&labelColor=1F2328) | 40% |
