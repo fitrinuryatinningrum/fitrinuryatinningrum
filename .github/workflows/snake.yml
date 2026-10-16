@@ -1,0 +1,44 @@
+name: Generate contribution snake animation
+
+on:
+  schedule:
+    # Jalankan tiap 6 jam agar ular tetap bergerak
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-snake-animated.gif
+            dist/github-contribution-snake-animated-dark.gif
+
+      - name: Publish snake animation to gh-pages branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+          commit_message: "Update snake animation"
+
+      - name: Store generated SVG + GIF as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-animation
+          path: dist/
+          retention-days: 30
