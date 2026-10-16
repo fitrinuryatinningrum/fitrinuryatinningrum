@@ -133,6 +133,38 @@ supaya angkanya jujur dan tidak overclaim.
 
 ---
 
+<br>
+
+<div align="center">
+
+### ⚡ Sistem Klasifikasi Komponen Elektronik AC & DC
+
+[![Repo](https://img.shields.io/badge/GitHub-FFC300?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum/component-classification)
+[![Language](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)](https://github.com/fitrinuryatinningrum/component-classification)
+[![Status](https://img.shields.io/badge/Status-Complete-4CAF50?style=flat-square)]()
+
+An interactive web app for learning electronic component classification — **94 components**,
+**94 vector symbols**, and **5 quiz modes**, all offline. Built as a self-contained
+single-file app you can double-click and send anywhere.
+
+`Interactive Web App` · `SVG Vector Graphics` · `Hash Router` · `Quiz Engine` · `Zero Dependency`
+
+[📂 Lihat repository →](https://github.com/fitrinuryatinningrum/component-classification)
+
+</div>
+
+<details>
+<summary><b>🔨 Suggest a fifth project</b></summary>
+
+<br>
+
+Punya project mekatronika yang menarik? Repo it, lalu buka issue di
+[github.com/fitrinuryatinningrum](https://github.com/fitrinuryatinningrum) — akan saya masukkan ke daftar di sini.
+
+</details>
+
+---
+
 ## 🚀 Learning Journey
 
 > **📝 Cara mengubah:** edit angka di `Nx%25` untuk progress, dan teks di dalam kurung siku.
