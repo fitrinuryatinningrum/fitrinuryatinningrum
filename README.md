@@ -75,49 +75,61 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 
 ## 💪 Skill Proficiency
 
-> **📝 Cara mengubah:** setiap baris punya satu angka persentase.
-> Edit angka di dalam badge (`-75%25-`), lalu ganti juga angka pada baris `Persentase`.
-> Warna: 🟢 `4CAF50` ≥ 80% · 🟡 `FFC300` 50–79% · 🔵 `58A6FF` 25–49% · 🔴 `F85149` < 25%
+> **📝 Cara mengubah persentase:** ada **2 angka** per baris yang harus diubah
+> dan harus **sama** — angka di dalam badge (`-75%25-`) dan angka di kolom `Persentase`.
+> Warna mengikuti levelnya: 🟢 `4CAF50` ≥ 80% · 🟡 `FFC300` 50–79% ·
+> 🔵 `58A6FF` 25–49% · 🔴 `F85149` < 25%
 
 ### ⚙️ Control & Automation
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
 | **PID Tuning & Design** | ![PID](https://img.shields.io/badge/PID-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
-| **MATLAB / Simulink** | ![MATLAB](https://img.shields.io/badge/MATLAB-75%25-FFC300?style=flat-square&labelColor=1F2328) | 55% |
-| **Fuzzy Logic (Sugeno/Mamdani)** | ![Fuzzy](https://img.shields.io/badge/Fuzzy-55%25-FFC300?style=flat-square&labelColor=1F2328) | 85% |
-| **System Modeling & Transfer Function** | ![Modeling](https://img.shields.io/badge/Modeling-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-| **State-Space & Stability Analysis** | ![StateSpace](https://img.shields.io/badge/State--Space-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
+| **MATLAB / Simulink** | ![MATLAB](https://img.shields.io/badge/MATLAB-55%25-FFC300?style=flat-square&labelColor=1F2328) | 55% |
+| **Fuzzy Logic (Sugeno/Mamdani)** | ![Fuzzy](https://img.shields.io/badge/Fuzzy-85%25-4CAF50?style=flat-square&labelColor=1F2328) | 85% |
 
 ### 🔌 Embedded & Real-Time
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
-| **C / C++** | ![C](https://img.shields.io/badge/C_/_C%2B%2B-78%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-| **Microcontroller Firmware (ESP32)** | ![MCU](https://img.shields.io/badge/Firmware-72%25-FFC300?style=flat-square&labelColor=1F2328) | 90% |
-| **FreeRTOS** | ![RTOS](https://img.shields.io/badge/FreeRTOS-45%25-58A6FF?style=flat-square&labelColor=1F2328) | 45% |
-| **Communication (I2C/SPI/UART/CAN)** | ![Comm](https://img.shields.io/badge/Comms-68%25-FFC300?style=flat-square&labelColor=1F2328) | 80% |
-| **PCB Design (KiCad)** | ![PCB](https://img.shields.io/badge/PCB-40%25-58A6FF?style=flat-square&labelColor=1F2328) | 90% |
+| **Microcontroller Firmware (ESP32)** | ![MCU](https://img.shields.io/badge/Firmware-90%25-4CAF50?style=flat-square&labelColor=1F2328) | 90% |
+| **PCB Design (KiCad)** | ![PCB](https://img.shields.io/badge/PCB-90%25-4CAF50?style=flat-square&labelColor=1F2328) | 90% |
+| **Communication (I2C/SPI/UART/CAN)** | ![Comm](https://img.shields.io/badge/Comms-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
+| **C / C++** | ![C](https://img.shields.io/badge/C_/_C%2B%2B-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
 
 ### 🌐 IoT & Connectivity
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
+| **Telegram Bot Integration** | ![Telegram](https://img.shields.io/badge/Telegram-98%25-4CAF50?style=flat-square&labelColor=1F2328) | 98% |
+| **ESP-NOW / Wi-Fi / BLE** | ![Wireless](https://img.shields.io/badge/Wireless-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
+| **REST API / JSON** | ![REST](https://img.shields.io/badge/REST-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
 | **MQTT & Broker** | ![MQTT](https://img.shields.io/badge/MQTT-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-| **REST API / JSON** | ![REST](https://img.shields.io/badge/REST-65%25-FFC300?style=flat-square&labelColor=1F2328) | 80% |
-| **ESP-NOW / Wi-Fi / BLE** | ![Wireless](https://img.shields.io/badge/Wireless-60%25-FFC300?style=flat-square&labelColor=1F2328) | 80% |
-| **Dashboard & Telemetry** | ![Dashboard](https://img.shields.io/badge/Dashboard-45%25-58A6FF?style=flat-square&labelColor=1F2328) | 85% |
-| **Telegram Bot Integration** | ![Telegram](https://img.shields.io/badge/Telegram-55%25-FFC300?style=flat-square&labelColor=1F2328) | 98% |
 
 ### 🤖 AI & Autonomous Agents
 
 | Skill | Progress | Persentase |
 |---|:---:|:---:|
-| **Hermes Agent (Nous Research)** | ![Hermes](https://img.shields.io/badge/Hermes%20Agent-65%25-FFC300?style=flat-square&labelColor=1F2328) | 95% |
-| **LLM Tool Use / Function Calling** | ![ToolUse](https://img.shields.io/badge/Tool%20Use-58%25-FFC300?style=flat-square&labelColor=1F2328) | 58% |
-| **Prompt Engineering** | ![Prompt](https://img.shields.io/badge/Prompt%20Eng-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
-| **MCP (Model Context Protocol)** | ![MCP](https://img.shields.io/badge/MCP-40%25-58A6FF?style=flat-square&labelColor=1F2328) | 40% |
+| **Hermes Agent (Nous Research)** | ![Hermes](https://img.shields.io/badge/Hermes%20Agent-95%25-4CAF50?style=flat-square&labelColor=1F2328) | 95% |
 | **Python** | ![Python](https://img.shields.io/badge/Python-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
+| **Prompt Engineering** | ![Prompt](https://img.shields.io/badge/Prompt%20Eng-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
+
+### 🌱 Recently Started Learning
+
+Skill yang masih baru saya sentuh — sengaja dipisahkan dari daftar di atas
+supaya angkanya jujur dan tidak overclaim.
+
+| Skill | Progress | Status |
+|---|:---:|:---:|
+| **System Modeling & Transfer Function** | ![Modeling](https://img.shields.io/badge/Modeling-15%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
+| **State-Space & Stability Analysis** | ![StateSpace](https://img.shields.io/badge/State--Space-10%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
+| **Dashboard & Telemetry** | ![Dashboard](https://img.shields.io/badge/Dashboard-10%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
+| **LLM Tool Use / Function Calling** | ![ToolUse](https://img.shields.io/badge/Tool%20Use-10%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
+| **MCP (Model Context Protocol)** | ![MCP](https://img.shields.io/badge/MCP-5%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
+| **FreeRTOS** | ![RTOS](https://img.shields.io/badge/FreeRTOS-5%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
+
+> Kalau salah satu di atas sudah makin paham, **pindahin** barisnya ke tabel utama
+> di atas dan naikkan persentagenya.
 
 ---
 
@@ -199,9 +211,9 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Octave](https://img.shields.io/badge/Octave-079393?style=for-the-badge&logo=gnu-octave&logoColor=white)
 
-`PID` · `State-Space` · `Transfer Function` · `Stability Analysis` · `SISO/MIMO` ·
-`Sampling & Discrete Control` · `System Identification` · `Frequency Response` ·
-**`Fuzzy Logic (Sugeno, Mamdani)`**
+`PID Tuning` · **`Fuzzy Logic (Sugeno, Mamdani)`** · `Frequency Response` ·
+`SISO/MIMO` · `Sampling & Discrete Control` ·
+_🌱 sedang dipelajari: `Transfer Function` · `State-Space` · `Stability Analysis`_
 
 </td>
 <td valign="top" width="50%">
@@ -216,8 +228,9 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-ED7D31?style=for-the-badge&logo=platformio&logoColor=white)
 
-`FreeRTOS` · `Interrupts & Timers` · `I2C / SPI / UART / CAN` · `PWM & Motor Control` ·
-`ADC / DAC` · `PCB Design (KiCad)` · `Fritzing`
+`I2C / SPI / UART / CAN` · `PWM & Motor Control` · `Interrupts & Timers` ·
+`ADC / DAC` · `PCB Design (KiCad)` · `Fritzing` ·
+_🌱 sedang dipelajari: `FreeRTOS`_
 
 </td>
 </tr>
@@ -232,8 +245,8 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 ![Telegram](https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 ![Web Serial](https://img.shields.io/badge/Web%20Serial-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-`ESP-NOW` · `Wi-Fi / BLE` · `ThingSpeak` · `InfluxDB` · `Grafana` ·
-`REST APIs` · `Telemetry Dashboards`
+`ESP-NOW` · `Wi-Fi / BLE` · `ThingSpeak` · `REST APIs` · `Telegram Bot API` ·
+_🌱 sedang dipelajari: `InfluxDB` · `Grafana` · `Telemetry Dashboards`_
 
 </td>
 <td valign="top" width="50%">
@@ -249,8 +262,9 @@ thresholds, but with rules that handle ambiguous real-world conditions gracefull
 it creates skills from experience, improves them during use, and searches its own
 past conversations.
 
-`Tool Use / Function Calling` · `MCP` · `Scheduled Automations` · `Subagent Delegation` ·
-`Session Memory` · `Agent ↔ Hardware Integration`
+`Scheduled Automations` · `Subagent Delegation` · `Session Memory` ·
+`Agent ↔ Hardware Integration` ·
+_🌱 sedang dipelajari: `Tool Use / Function Calling` · `MCP`_
 
 </td>
 </tr>
@@ -446,14 +460,21 @@ interesting open-source issues.
 ============================================================
 
 1. PERSENTASE SKILL — section "💪 Skill Proficiency"
-   Ubah 2 tempat per skill:
-     a) angka di dalam badge  : -75%25-FFC300   → ubah 75 dan warna
-     b) kolom "Persentase"    : 75%               → ubah 75
-   Warna otomatis per level:
+   ⚠️  PENTING: ada DUA angka per baris yang harus diubah BERSAMAAN,
+       kalau tidak badge dan tulisan jadi tidak sinkron:
+         a) di dalam badge  : -75%25-FFC300   → ubah angka + warna
+         b) kolom Persentase: 75%              → ubah angka
+   Warna per level:
      🟢 4CAF50 = 80–100%   mastered
      🟡 FFC300 = 50–79%    proficient
      🔵 58A6FF = 25–49%    learning
      🔴 F85149 = 0–24%     beginner
+
+   Skill yang masih baru dipelajari ada di tabel terpisah
+   "🌱 Recently Started Learning" — angkanya sengaja rendah (5–15%).
+   Kalau sudah makin paham, PINDAHKAN baris itu ke tabel utama
+   dan naikkan persentagenya. Jangan hanya menaikkan angkanya
+   di tempat, karena akan terlihat tidak konsisten.
 
 2. PROGRESS BAR — section "🚀 Learning Journey"
    Ubah angka di dalam badge Nx%25, lalu sesuaikan bar blok:
@@ -462,10 +483,9 @@ interesting open-source issues.
         70%  →  🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜
 
 3. YANG MASIH PERLU KAMU ISI
-   • URL LinkedIn — ganti linkedin.com/in/fitri-nuryatin-ningrum-356575377
-     (header badge + section "Let's Connect")
-   • Link project — kartu Featured Projects masih mengarah ke profil.
+   • Link project — kartu Featured Projects masih mengarah ke halaman profil.
      Ganti ke URL repo masing-masing setelah repo-nya dibuat.
+     (URL LinkedIn sudah diisi: fitri-nuryatin-ningrum-356575377)
 
 4. LAIN-LAIN
    • Tema stats : theme=tokyonight → radical, dracula, gruvbox, default
