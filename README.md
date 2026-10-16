@@ -10,7 +10,7 @@ to real firmware running on real hardware.
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&vCenter=true&width=720&lines=Designing+PID+controllers+for+machines.+Flashing+firmware+on+microcontrollers.+Connecting+devices+to+the+cloud.+Teaching+agents+to+act.&center=true)](https://git.io/typing-svg)
 
 [![Profile](https://img.shields.io/badge/Profile-fitrinuryatinningrum-58A6FF?style=for-the-badge&logo=github)](https://github.com/fitrinuryatinningrum)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitrinuryatinningrum)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitri-nuryatin-ningrum-356575377)
 [![Email](https://img.shields.io/badge/Email-ask%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fitrinuryatinningrum@gmail.com)
 
 </div>
@@ -423,7 +423,7 @@ Punya project mekatronika yang menarik? Repo it, lalu buka issue di
 ## 📬 Let's Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-fitrinuryatinningrum-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitrinuryatinningrum)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitri-nuryatin-ningrum-356575377)
 [![Email](https://img.shields.io/badge/Email-fitrinuryatinningrum@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fitrinuryatinningrum@gmail.com)
 
 **Open to** collaborating on embedded + control + agent projects, and to any
@@ -462,7 +462,7 @@ interesting open-source issues.
         70%  →  🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜
 
 3. YANG MASIH PERLU KAMU ISI
-   • URL LinkedIn — ganti linkedin.com/in/fitrinuryatinningrum
+   • URL LinkedIn — ganti linkedin.com/in/fitri-nuryatin-ningrum-356575377
      (header badge + section "Let's Connect")
    • Link project — kartu Featured Projects masih mengarah ke profil.
      Ganti ke URL repo masing-masing setelah repo-nya dibuat.
