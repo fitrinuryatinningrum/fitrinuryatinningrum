@@ -1,233 +1,132 @@
 <div align="center">
 
-# Hi, I'm **Fitrinuryatinningrum** 👋
+# Fitri Nuryatin Ningrum
 
-**Mechatronics Engineering · Control Systems · Embedded · IoT · AI Agents**
+**Mechatronics Engineering — Control Systems · Embedded · IoT · AI Agents**
 
-I build things that sense, think, and move — from mathematical control models
-to real firmware running on real hardware.
+Building systems that sense, decide, and act — from the control model
+all the way down to firmware on real hardware.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&vCenter=true&width=720&lines=Designing+PID+controllers+for+machines.+Flashing+firmware+on+microcontrollers.+Connecting+devices+to+the+cloud.+Teaching+agents+to+act.&center=true)](https://git.io/typing-svg)
+[![Profile](https://img.shields.io/badge/Profile-fitrinuryatinningrum-2F81F7?style=flat-square&labelColor=24292F&logo=github)](https://github.com/fitrinuryatinningrum)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=flat-square&labelColor=24292F&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitri-nuryatin-ningrum-356575377)
+[![Email](https://img.shields.io/badge/Email-fitrinuryatinningrum@gmail.com-EA4335?style=flat-square&labelColor=24292F&logo=gmail&logoColor=white)](mailto:fitrinuryatinningrum@gmail.com)
 
-[![Profile](https://img.shields.io/badge/Profile-fitrinuryatinningrum-58A6FF?style=for-the-badge&logo=github)](https://github.com/fitrinuryatinningrum)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitri-nuryatin-ningrum-356575377)
-[![Email](https://img.shields.io/badge/Email-ask%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fitrinuryatinningrum@gmail.com)
+[About](#about) · [Skills](#skills) · [Projects](#projects) · [Roadmap](#roadmap) · [Activity](#activity) · [Stats](#stats) · [Contact](#contact)
 
 </div>
 
 ---
 
-## 🧭 Jump To
+<a name="about"></a>
 
-<a href="#-about-me"><img src="https://img.shields.io/badge/About%20Me-FF6B9D?style=flat-square&labelColor=1F2328" alt="About Me"></a>
-<a href="#-skill-proficiency"><img src="https://img.shields.io/badge/Skills-FFC300?style=flat-square&labelColor=1F2328" alt="Skills"></a>
-<a href="#-learning-journey"><img src="https://img.shields.io/badge/Learning%20Journey-A371F7?style=flat-square&labelColor=1F2328" alt="Learning Journey"></a>
-<a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech%20Stack-4CAF50?style=flat-square&labelColor=1F2328" alt="Tech Stack"></a>
-<a href="#-featured-projects"><img src="https://img.shields.io/badge/Projects-F7931E?style=flat-square&labelColor=1F2328" alt="Projects"></a>
-<a href="#-contribution-activity"><img src="https://img.shields.io/badge/Activity-58A6FF?style=flat-square&labelColor=1F2328" alt="Activity"></a>
-<a href="#-github-stats"><img src="https://img.shields.io/badge/Stats-00A878?style=flat-square&labelColor=1F2328" alt="Stats"></a>
-<a href="#-lets-connect"><img src="https://img.shields.io/badge/Contact-EA4335?style=flat-square&labelColor=1F2328" alt="Contact"></a>
+## About
 
-> **🔽 Klik badge di atas untuk langsung melompat ke bagiannya.**
+I work across the full stack of mechatronics — the discipline where control theory,
+firmware, and connected systems meet.
 
----
+**Control systems.** System modeling, PID design, frequency response, and stability
+analysis — translating plant behaviour into a control law that actually converges.
 
-## 👨‍💻 About Me
+**Embedded systems.** Real-time firmware on ESP32 and STM32: sensor acquisition,
+actuator control, and the timing problems that never appear in simulation.
 
-I'm a mechatronics engineering student passionate about the full stack of intelligent
-and automated machines:
+**IoT.** Connected sensor networks over MQTT and REST, with remote telemetry and
+alerting.
 
-- ⚙️ **Control Systems** — modeling, analysis, and design: transfer functions, PID,
-  state-space, stability, discrete-time behaviour.
-- 🔌 **Embedded Systems** — firmware on microcontrollers (ESP32, STM32, Arduino),
-  sensors, actuators, and the timing issues nobody warns you about.
-- 🌐 **IoT** — connected devices, sensor networks, MQTT, dashboards, telemetry.
-- 🤖 **AI Agents** — self-improving agents (powered by **Hermes Agent** from Nous Research)
-  that don't just talk — they call tools, run schedules, and touch real systems.
+**AI agents.** Autonomous agents built on [Hermes Agent](https://github.com/NousResearch/hermes-agent)
+from Nous Research — systems that call tools, run scheduled work, and retain context
+across sessions.
 
-I enjoy the whole journey: sketching a control law on paper → simulating it →
-solving the "it works on the bench, not in simulation" problems → wiring,
-flashing, and testing a real prototype.
+What I value most is the full loop: derive the model, simulate it, build it, watch it
+fail on the bench, and find out why.
 
 <details>
-<summary><b>🧠 What I'm working on right now</b></summary>
+<summary><b>Current focus — IoT temperature control with Sugeno fuzzy inference</b></summary>
 
 <br>
-
-**IoT Automatic Temperature Control with Fuzzy Sugeno Inference**
 
 A system that prevents **router overheating** by reading a DHT sensor and letting a
-*Sugeno fuzzy inference engine* decide the cooling action — not with fixed `if temp > 40`
-thresholds, but with rules that handle ambiguous real-world conditions gracefully.
-
-`Error (ΔT)` + `Rate of Change (dT/dt)` → **Fuzzy Inference (Sugeno)** → `PWM fan output`
-
-- Membership functions for cold / normal / warm / hot
-- Rule base encoding human reasoning ("hot **and** rising fast = fan at full blast")
-- Defuzzification with the Sugeno weighted-average method
-- MQTT telemetry + Telegram alerting when temperature gets dangerous
-
-**Status:** 🔧 In progress
-
-</details>
-
----
-
-## 💪 Skill Proficiency
-
-> **📝 Cara mengubah persentase:** ada **2 angka** per baris yang harus diubah
-> dan harus **sama** — angka di dalam badge (`-75%25-`) dan angka di kolom `Persentase`.
-> Warna mengikuti levelnya: 🟢 `4CAF50` ≥ 80% · 🟡 `FFC300` 50–79% ·
-> 🔵 `58A6FF` 25–49% · 🔴 `F85149` < 25%
-
-### ⚙️ Control & Automation
-
-| Skill | Progress | Persentase |
-|---|:---:|:---:|
-| **PID Tuning & Design** | ![PID](https://img.shields.io/badge/PID-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
-| **MATLAB / Simulink** | ![MATLAB](https://img.shields.io/badge/MATLAB-55%25-FFC300?style=flat-square&labelColor=1F2328) | 55% |
-| **Fuzzy Logic (Sugeno/Mamdani)** | ![Fuzzy](https://img.shields.io/badge/Fuzzy-85%25-4CAF50?style=flat-square&labelColor=1F2328) | 85% |
-
-### 🔌 Embedded & Real-Time
-
-| Skill | Progress | Persentase |
-|---|:---:|:---:|
-| **Microcontroller Firmware (ESP32)** | ![MCU](https://img.shields.io/badge/Firmware-90%25-4CAF50?style=flat-square&labelColor=1F2328) | 90% |
-| **PCB Design (KiCad)** | ![PCB](https://img.shields.io/badge/PCB-90%25-4CAF50?style=flat-square&labelColor=1F2328) | 90% |
-| **Communication (I2C/SPI/UART/CAN)** | ![Comm](https://img.shields.io/badge/Comms-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
-| **C / C++** | ![C](https://img.shields.io/badge/C_/_C%2B%2B-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-
-### 🌐 IoT & Connectivity
-
-| Skill | Progress | Persentase |
-|---|:---:|:---:|
-| **Telegram Bot Integration** | ![Telegram](https://img.shields.io/badge/Telegram-98%25-4CAF50?style=flat-square&labelColor=1F2328) | 98% |
-| **ESP-NOW / Wi-Fi / BLE** | ![Wireless](https://img.shields.io/badge/Wireless-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
-| **REST API / JSON** | ![REST](https://img.shields.io/badge/REST-80%25-4CAF50?style=flat-square&labelColor=1F2328) | 80% |
-| **MQTT & Broker** | ![MQTT](https://img.shields.io/badge/MQTT-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-
-### 🤖 AI & Autonomous Agents
-
-| Skill | Progress | Persentase |
-|---|:---:|:---:|
-| **Hermes Agent (Nous Research)** | ![Hermes](https://img.shields.io/badge/Hermes%20Agent-95%25-4CAF50?style=flat-square&labelColor=1F2328) | 95% |
-| **Python** | ![Python](https://img.shields.io/badge/Python-70%25-FFC300?style=flat-square&labelColor=1F2328) | 70% |
-| **Prompt Engineering** | ![Prompt](https://img.shields.io/badge/Prompt%20Eng-60%25-FFC300?style=flat-square&labelColor=1F2328) | 60% |
-
-### 🌱 Recently Started Learning
-
-Skill yang masih baru saya sentuh — sengaja dipisahkan dari daftar di atas
-supaya angkanya jujur dan tidak overclaim.
-
-| Skill | Progress | Status |
-|---|:---:|:---:|
-| **System Modeling & Transfer Function** | ![Modeling](https://img.shields.io/badge/Modeling-15%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
-| **State-Space & Stability Analysis** | ![StateSpace](https://img.shields.io/badge/State--Space-10%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
-| **Dashboard & Telemetry** | ![Dashboard](https://img.shields.io/badge/Dashboard-10%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
-| **LLM Tool Use / Function Calling** | ![ToolUse](https://img.shields.io/badge/Tool%20Use-10%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
-| **MCP (Model Context Protocol)** | ![MCP](https://img.shields.io/badge/MCP-5%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
-| **FreeRTOS** | ![RTOS](https://img.shields.io/badge/FreeRTOS-5%25-F85149?style=flat-square&labelColor=1F2328) | 🌱 baru |
-
-> Kalau salah satu di atas sudah makin paham, **pindahin** barisnya ke tabel utama
-> di atas dan naikkan persentagenya.
-
----
-
-<br>
-
-<div align="center">
-
-### ⚡ Sistem Klasifikasi Komponen Elektronik AC & DC
-
-[![Repo](https://img.shields.io/badge/GitHub-FFC300?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum/component-classification)
-[![Language](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)](https://github.com/fitrinuryatinningrum/component-classification)
-[![Status](https://img.shields.io/badge/Status-Complete-4CAF50?style=flat-square)]()
-
-An interactive web app for learning electronic component classification — **94 components**,
-**94 vector symbols**, and **5 quiz modes**, all offline. Built as a self-contained
-single-file app you can double-click and send anywhere.
-
-`Interactive Web App` · `SVG Vector Graphics` · `Hash Router` · `Quiz Engine` · `Zero Dependency`
-
-[📂 Lihat repository →](https://github.com/fitrinuryatinningrum/component-classification)
-
-</div>
-
-<details>
-<summary><b>🔨 Suggest a fifth project</b></summary>
-
-<br>
-
-Punya project mekatronika yang menarik? Repo it, lalu buka issue di
-[github.com/fitrinuryatinningrum](https://github.com/fitrinuryatinningrum) — akan saya masukkan ke daftar di sini.
-
-</details>
-
----
-
-## 🚀 Learning Journey
-
-> **📝 Cara mengubah:** edit angka di `Nx%25` untuk progress, dan teks di dalam kurung siku.
+*Sugeno fuzzy inference engine* select the cooling action — rather than fixed
+`if temp > 40` thresholds, using rules that handle ambiguous real-world conditions
+gracefully.
 
 ```
-🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜  80%  ── Control Systems Fundamentals
-🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜  60%  ── Microcontrollers & Embedded C
-🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜  70%  ── MATLAB / Simulink Simulation
-🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜  45%  ── FreeRTOS & Real-Time Systems
-🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜  30%  ── Advanced Control (LQR, Observers)
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜  25%  ── Edge AI / TinyML on Microcontrollers
+Temperature error (ΔT)  +  Rate of change (dT/dt)
+        │
+        ▼
+   Fuzzy Inference (Sugeno)
+        │
+        ▼
+   Defuzzification  →  PWM fan output
 ```
 
-### 🎯 Active Roadmap
+- Membership functions across cold / normal / warm / hot
+- Rule base encoding operator reasoning — *hot **and** rising fast → full output*
+- Weighted-average defuzzification
+- MQTT telemetry with Telegram alerting on dangerous thresholds
 
-<details open>
-<summary><b>🌡️ 1. IoT Temperature Control — Fuzzy Sugeno <i>(active project)</i></b></summary>
-
-<br>
-
-| Tahap | Progress | Status |
-|---|:---:|:---:|
-| Fungsi keanggotaan (membership functions) | ![](https://img.shields.io/badge/-50%25-FFC300?style=flat-square&labelColor=1F2328) | 🔨 Working |
-| Rule base Sugeno | ![](https://img.shields.io/badge/-35%25-58A6FF?style=flat-square&labelColor=1F2328) | 🔨 Working |
-| Defuzzifikasi & integrasi ESP32 | ![](https://img.shields.io/badge/-10%25-F85149?style=flat-square&labelColor=1F2328) | ⏳ Next |
-| MQTT telemetry + alerting | ![](https://img.shields.io/badge/-0%25-F85149?style=flat-square&labelColor=1F2328) | ⏳ Planned |
-| Validasi di perangkat router asli | ![](https://img.shields.io/badge/-0%25-F85149?style=flat-square&labelColor=1F2328) | ⏳ Planned |
+**Status:** in progress
 
 </details>
-
-<details>
-<summary><b>🤖 2. Deepening AI Agent Skills with Hermes Agent</b></summary>
-
-<br>
-
-| Item | Progress | Status |
-|---|:---:|:---:|
-| Hermes CLI + gateway setup | ![](https://img.shields.io/badge/-100%25-4CAF50?style=flat-square&labelColor=1F2328) | ✅ Done |
-| Custom skill creation | ![](https://img.shields.io/badge/-60%25-FFC300?style=flat-square&labelColor=1F2328) | 🔨 Working |
-| Scheduled automations (cron) | ![](https://img.shields.io/badge/-45%25-58A6FF?style=flat-square&labelColor=1F2328) | 🔨 Working |
-| MCP server integration | ![](https://img.shields.io/badge/-30%25-58A6FF?style=flat-square&labelColor=1F2328) | ⏳ Next |
-| Agent ↔ hardware bridge (kirim data sensor ke agent) | ![](https://img.shields.io/badge/-15%25-F85149?style=flat-square&labelColor=1F2328) | 💡 Idea |
-
-</details>
-
-<details>
-<summary><b>⚙️ 3. Advanced Control Systems</b></summary>
-
-<br>
-
-| Item | Progress | Status |
-|---|:---:|:---:|
-| State estimators / observers | ![](https://img.shields.io/badge/-25%25-58A6FF?style=flat-square&labelColor=1F2328) | 📖 Learning |
-| LQR / optimal control | ![](https://img.shields.io/badge/-15%25-F85149?style=flat-square&labelColor=1F2328) | 📖 Learning |
-| Adaptive & self-tuning control | ![](https://img.shields.io/badge/-10%25-F85149?style=flat-square&labelColor=1F2328) | ⏳ Planned |
-
-</details>
-
-> *"The best way to learn control systems is to build something and watch it fail."*
 
 ---
 
-## 🛠️ Tech Stack
+<a name="skills"></a>
+
+## Skills
+
+Self-assessed proficiency. Percentages reflect working familiarity, not certification.
+
+**Scale** — `80–100%` proficient · `50–79%` competent · `25–49%` developing · `<25%` introductory
+
+### Control & Automation
+
+| Skill | Level | |
+|---|:---:|:---:|
+| PID Tuning & Design | ![](https://img.shields.io/badge/-80%25-3FB950?style=flat-square&labelColor=24292F) | 80% |
+| Fuzzy Logic (Sugeno / Mamdani) | ![](https://img.shields.io/badge/-85%25-3FB950?style=flat-square&labelColor=24292F) | 85% |
+| MATLAB / Simulink | ![](https://img.shields.io/badge/-55%25-D29922?style=flat-square&labelColor=24292F) | 55% |
+
+### Embedded & Real-Time
+
+| Skill | Level | |
+|---|:---:|:---:|
+| Microcontroller Firmware (ESP32) | ![](https://img.shields.io/badge/-90%25-3FB950?style=flat-square&labelColor=24292F) | 90% |
+| PCB Design (KiCad) | ![](https://img.shields.io/badge/-90%25-3FB950?style=flat-square&labelColor=24292F) | 90% |
+| Communication Buses (I2C / SPI / UART / CAN) | ![](https://img.shields.io/badge/-80%25-3FB950?style=flat-square&labelColor=24292F) | 80% |
+| C / C++ | ![](https://img.shields.io/badge/-70%25-D29922?style=flat-square&labelColor=24292F) | 70% |
+
+### IoT & Connectivity
+
+| Skill | Level | |
+|---|:---:|:---:|
+| Telegram Bot Integration | ![](https://img.shields.io/badge/-98%25-3FB950?style=flat-square&labelColor=24292F) | 98% |
+| Wireless (ESP-NOW / Wi-Fi / BLE) | ![](https://img.shields.io/badge/-80%25-3FB950?style=flat-square&labelColor=24292F) | 80% |
+| REST API / JSON | ![](https://img.shields.io/badge/-80%25-3FB950?style=flat-square&labelColor=24292F) | 80% |
+| MQTT & Broker | ![](https://img.shields.io/badge/-70%25-D29922?style=flat-square&labelColor=24292F) | 70% |
+
+### AI & Autonomous Agents
+
+| Skill | Level | |
+|---|:---:|:---:|
+| Hermes Agent (Nous Research) | ![](https://img.shields.io/badge/-95%25-3FB950?style=flat-square&labelColor=24292F) | 95% |
+| Python | ![](https://img.shields.io/badge/-70%25-D29922?style=flat-square&labelColor=24292F) | 70% |
+| Prompt Engineering | ![](https://img.shields.io/badge/-60%25-D29922?style=flat-square&labelColor=24292F) | 60% |
+
+### Currently Learning
+
+Kept separate so the numbers stay honest — these are areas I have only just started.
+
+| Skill | Level |
+|---|:---:|
+| System Modeling & Transfer Function | ![](https://img.shields.io/badge/-15%25-F85149?style=flat-square&labelColor=24292F) |
+| State-Space & Stability Analysis | ![](https://img.shields.io/badge/-10%25-F85149?style=flat-square&labelColor=24292F) |
+| Dashboard & Telemetry | ![](https://img.shields.io/badge/-10%25-F85149?style=flat-square&labelColor=24292F) |
+| LLM Tool Use / Function Calling | ![](https://img.shields.io/badge/-10%25-F85149?style=flat-square&labelColor=24292F) |
+| MCP (Model Context Protocol) | ![](https://img.shields.io/badge/-5%25-F85149?style=flat-square&labelColor=24292F) |
+| FreeRTOS | ![](https://img.shields.io/badge/-5%25-F85149?style=flat-square&labelColor=24292F) |
+
+### Toolchain
 
 [![Skills](https://skillicons.dev/icons?i=matlab,python,c,cpp,arduino,raspberrypi,nodejs,js,ts,html,css,git,github,vscode,kicad,linux,docker,mqtt,postman)](https://skillicons.dev)
 
@@ -235,98 +134,95 @@ Punya project mekatronika yang menarik? Repo it, lalu buka issue di
 <tr>
 <td valign="top" width="50%">
 
-### ⚙️ Control & Simulation
+**Control & Simulation**
 
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Octave](https://img.shields.io/badge/Octave-079393?style=for-the-badge&logo=gnu-octave&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&labelColor=24292F&logo=mathworks&logoColor=white)
+![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=flat-square&labelColor=24292F&logo=mathworks&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&labelColor=24292F&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&labelColor=24292F&logo=jupyter&logoColor=white)
+![Octave](https://img.shields.io/badge/Octave-079393?style=flat-square&labelColor=24292F&logo=gnu-octave&logoColor=white)
 
-`PID Tuning` · **`Fuzzy Logic (Sugeno, Mamdani)`** · `Frequency Response` ·
-`SISO/MIMO` · `Sampling & Discrete Control` ·
-_🌱 sedang dipelajari: `Transfer Function` · `State-Space` · `Stability Analysis`_
+`PID Tuning` · `Fuzzy Logic (Sugeno, Mamdani)` · `Frequency Response` ·
+`SISO/MIMO` · `Sampling & Discrete Control`
+<br><sub>Learning: `Transfer Function` · `State-Space` · `Stability Analysis`</sub>
 
 </td>
 <td valign="top" width="50%">
 
-### 🔌 Embedded & Hardware
+**Embedded & Hardware**
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-3C8B4C?style=for-the-badge&logo=espressif&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-ED7D31?style=for-the-badge&logo=platformio&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&labelColor=24292F&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&labelColor=24292F&logo=c%2B%2B&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&labelColor=24292F&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-3C8B4C?style=flat-square&labelColor=24292F&logo=espressif&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&labelColor=24292F&logo=stmicroelectronics&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat-square&labelColor=24292F&logo=raspberrypi&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-ED7D31?style=flat-square&labelColor=24292F&logo=platformio&logoColor=white)
 
 `I2C / SPI / UART / CAN` · `PWM & Motor Control` · `Interrupts & Timers` ·
-`ADC / DAC` · `PCB Design (KiCad)` · `Fritzing` ·
-_🌱 sedang dipelajari: `FreeRTOS`_
+`ADC / DAC` · `PCB Design (KiCad)` · `Fritzing`
+<br><sub>Learning: `FreeRTOS`</sub>
 
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
 
-### 🌐 IoT & Connectivity
+**IoT & Connectivity**
 
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![Node-RED](https://img.shields.io/badge/Node-RED-8F03D8?style=for-the-badge&logo=nodered&logoColor=white)
-![Mosquitto](https://img.shields.io/badge/Mosquitto-660066?style=for-the-badge&logo=mosquitto&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-![Web Serial](https://img.shields.io/badge/Web%20Serial-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&labelColor=24292F&logo=mqtt&logoColor=white)
+![Node-RED](https://img.shields.io/badge/Node-RED-8F03D8?style=flat-square&labelColor=24292F&logo=nodered&logoColor=white)
+![Mosquitto](https://img.shields.io/badge/Mosquitto-660066?style=flat-square&labelColor=24292F&logo=mosquitto&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=flat-square&labelColor=24292F&logo=telegram&logoColor=white)
+![Web Serial](https://img.shields.io/badge/Web%20Serial-4285F4?style=flat-square&labelColor=24292F&logo=google&logoColor=white)
 
-`ESP-NOW` · `Wi-Fi / BLE` · `ThingSpeak` · `REST APIs` · `Telegram Bot API` ·
-_🌱 sedang dipelajari: `InfluxDB` · `Grafana` · `Telemetry Dashboards`_
+`ESP-NOW` · `Wi-Fi / BLE` · `ThingSpeak` · `REST APIs` · `Telegram Bot API`
+<br><sub>Learning: `InfluxDB` · `Grafana` · `Telemetry Dashboards`</sub>
 
 </td>
 <td valign="top" width="50%">
 
-### 🤖 AI & Autonomous Agents
+**AI & Autonomous Agents**
 
-[![Hermes](https://img.shields.io/badge/Hermes%20Agent-5A4FCF?style=for-the-badge&logo=NousResearch&logoColor=white)](https://github.com/NousResearch/hermes-agent)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-1C3C3C?style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+[![Hermes](https://img.shields.io/badge/Hermes%20Agent-5A4FCF?style=flat-square&labelColor=24292F&logo=NousResearch&logoColor=white)](https://github.com/NousResearch/hermes-agent)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&labelColor=24292F&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&labelColor=24292F&logo=typescript&logoColor=white)
 
-**`Hermes Agent`** — self-improving autonomous agent with a built-in learning loop:
-it creates skills from experience, improves them during use, and searches its own
-past conversations.
-
-`Scheduled Automations` · `Subagent Delegation` · `Session Memory` ·
-`Agent ↔ Hardware Integration` ·
-_🌱 sedang dipelajari: `Tool Use / Function Calling` · `MCP`_
+**Hermes Agent** — a self-improving autonomous agent with a built-in learning loop:
+it creates skills from experience, refines them through use, and searches its own
+past conversations for context.
+<br>`Scheduled Automations` · `Subagent Delegation` · `Session Memory` · `Agent ↔ Hardware`
+<br><sub>Learning: `Tool Use / Function Calling` · `MCP`</sub>
 
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
 
-### 🛠️ Tools
+**Tools**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-005E87?style=for-the-badge&logo=kicad&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&labelColor=24292F&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&labelColor=24292F&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&labelColor=24292F&logo=visualstudiocode&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-005E87?style=flat-square&labelColor=24292F&logo=kicad&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&labelColor=24292F&logo=linux&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&labelColor=24292F&logo=postman&logoColor=white)
 
-`Git` · `GitHub Actions` · `Docker` · `Terminal` · `Oscilloscope` ·
+`Git` · `GitHub Actions` · `Docker` · `Linux CLI` · `Oscilloscope` ·
 `Multimeter` · `Logic Analyzer`
 
 </td>
 <td valign="top" width="50%">
 
-### 💻 Frontend
+**Frontend**
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&labelColor=24292F&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&labelColor=24292F&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&labelColor=24292F&logo=javascript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&labelColor=24292F&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&labelColor=24292F&logo=react&logoColor=white)
 
-`Responsive UI` · `SVG Visualization` · `Data Dashboards` · `Single-File Apps`
+`Responsive UI` · `SVG Visualization` · `Data Dashboards` · `Single-File Applications`
 
 </td>
 </tr>
@@ -334,197 +230,203 @@ _🌱 sedang dipelajari: `Tool Use / Function Calling` · `MCP`_
 
 ---
 
-## 🚀 Featured Projects
+<a name="projects"></a>
 
-<div align="center">
+## Projects
 
-### 🎲 Random Project Picker
+### Component Classification — AC & DC
 
-[![Random Project](https://img.shields.io/badge/%F0%9F%8E%B2%20Random%20Project-A371F7?style=for-the-badge)](https://github.com/fitrinuryatinningrum?tab=repositories)
+[![Repository](https://img.shields.io/badge/Repository-component--classification-2F81F7?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum/component-classification)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&labelColor=24292F&logo=javascript&logoColor=white)](https://github.com/fitrinuryatinningrum/component-classification)
 
-[![Random Repo](https://github-readme-random-repo.vercel.app/api?username=fitrinuryatinningrum&count=1&theme=tokyonight&hide_border=true)](https://github.com/fitrinuryatinningrum?tab=repositories)
+An interactive web application for learning electronic component classification —
+**94 components**, **94 vector symbols**, and **5 quiz modes**, fully offline.
+Shipped as a self-contained single-file build that runs by double-click, with no
+server and no dependencies.
 
-</div>
+`Interactive Web App` · `SVG Vector Graphics` · `Hash Router` · `Quiz Engine` · `Zero Dependency`
 
-<br>
+[Open repository →](https://github.com/fitrinuryatinningrum/component-classification)
 
-<div align="center">
+### Obstacle Avoidance Robot
 
-### 🤖 Obstacle Avoiding Robot
-
-[![Repo](https://img.shields.io/badge/GitHub-F7931E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![Language](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![Status](https://img.shields.io/badge/Status-Complete-4CAF50?style=flat-square)]()
+[![Repository](https://img.shields.io/badge/Repository-obstacle--avoiding--robot-F0883E?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&labelColor=24292F&logo=c%2B%2B&logoColor=white)](https://github.com/fitrinuryatinningrum)
 
 An autonomous robot that detects obstacles and navigates around them in real time.
-Built with ultrasonic sensors, a microcontroller, and closed-loop motor control —
-where **embedded code meets control theory**.
+Ultrasonic sensing, microcontroller firmware, and closed-loop motor control — where
+embedded code meets control theory.
 
 `Ultrasonic Sensing` · `PID Motor Control` · `Real-time Firmware` · `State Machine`
 
-[📂 Lihat repository →](https://github.com/fitrinuryatinningrum)
+### Titan-M2 CNC
 
-</div>
+[![Repository](https://img.shields.io/badge/Repository-titan--m2--cnc-A371F7?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&labelColor=24292F&logo=c%2B%2B&logoColor=white)](https://github.com/fitrinuryatinningrum)
 
-<br>
-
-<div align="center">
-
-### 🏭 Titan-M2 CNC
-
-[![Repo](https://img.shields.io/badge/GitHub-A371F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![Language](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![Domain](https://img.shields.io/badge/Domain-Mechatronics-58A6FF?style=flat-square)]()
-
-A Computer Numerical Control project — precision motion control of stepper motors
-for automated machining. **This is where mechatronics truly comes together**:
-kinematics, step generation, timing, and machine accuracy in one system.
+A computer numerical control project — precision stepper motion for automated
+machining. This is where mechatronics converges: kinematics, step generation, timing,
+and machine accuracy in a single system.
 
 `Motion Control` · `Stepper Drivers` · `G-code` · `Kinematics` · `PCB & Wiring`
 
-[📂 Lihat repository →](https://github.com/fitrinuryatinningrum)
+### IoT Temperature Control — Fuzzy Sugeno
 
-</div>
+[![Repository](https://img.shields.io/badge/Repository-iot--temperature--control-3FB950?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&labelColor=24292F&logo=python&logoColor=white)](https://github.com/fitrinuryatinningrum)
+[![Status](https://img.shields.io/badge/Status-In%20Progress-D29922?style=flat-square&labelColor=24292F)]()
 
-<br>
+An IoT automatic temperature control system for preventing router overheating, using
+Sugeno fuzzy inference to select cooling actions — handling ambiguous real-world
+conditions rather than fixed thresholds.
 
-<div align="center">
-
-### 🌡️🌐 IoT Temperature Control — Fuzzy Sugeno
-
-[![Repo](https://img.shields.io/badge/GitHub-00A878?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![Language](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![Status](https://img.shields.io/badge/Status-WIP%20%28%F0%9F%94%A7%29-FFC300?style=flat-square)]()
-
-An IoT-based automatic temperature control system to **prevent router overheating**.
-Uses **Sugeno fuzzy logic inference** to decide cooling actions intelligently —
-not with fixed thresholds, but with rules that handle ambiguous, real-world conditions.
-
-`Fuzzy Logic (Sugeno)` · `DHT11 / DHT22 Sensor` · `MQTT` · `ESP32` · `Telegram Alerts`
-
-[📂 Lihat repository →](https://github.com/fitrinuryatinningrum)
-
-</div>
+`Fuzzy Logic (Sugeno)` · `DHT11 / DHT22` · `MQTT` · `ESP32` · `Telegram Alerts`
 
 <details>
-<summary><b>🔨 Suggest a fourth project</b></summary>
+<summary><b>Other repositories</b></summary>
 
 <br>
 
-Punya project mekatronika yang menarik? Repo it, lalu buka issue di
-[github.com/fitrinuryatinningrum](https://github.com/fitrinuryatinningrum) — akan saya masukkan ke daftar di sini.
+[![Random Repo](https://github-readme-random-repo.vercel.app/api?username=fitrinuryatinningrum&count=1&theme=default&hide_border=true)](https://github.com/fitrinuryatinningrum?tab=repositories)
+
+[Browse all repositories →](https://github.com/fitrinuryatinningrum?tab=repositories)
 
 </details>
 
 ---
 
-## 🐍 Contribution Activity
+<a name="roadmap"></a>
 
-> Grafik kontribusiku dalam bentuk ular yangigram.
-> Di-generate otomatis oleh GitHub Actions tiap hari — refresh tampilan halaman
-> (hard reload <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>) kalau animasi belum berubah.
+## Roadmap
+
+### IoT Temperature Control — Fuzzy Sugeno
+
+| Stage | Progress | Status |
+|---|:---:|:---:|
+| Membership functions | ![](https://img.shields.io/badge/-50%25-D29922?style=flat-square&labelColor=24292F) | In progress |
+| Sugeno rule base | ![](https://img.shields.io/badge/-35%25-2F81F7?style=flat-square&labelColor=24292F) | In progress |
+| Defuzzification & ESP32 integration | ![](https://img.shields.io/badge/-10%25-F85149?style=flat-square&labelColor=24292F) | Next |
+| MQTT telemetry & alerting | ![](https://img.shields.io/badge/Not%20started%20-%20-F85149?style=flat-square&labelColor=24292F) | Planned |
+| Validation on target router hardware | ![](https://img.shields.io/badge/Not%20started%20-%20-F85149?style=flat-square&labelColor=24292F) | Planned |
+
+### AI Agent Engineering
+
+| Item | Progress | Status |
+|---|:---:|:---:|
+| Hermes CLI & gateway setup | ![](https://img.shields.io/badge/Complete-3FB950?style=flat-square&labelColor=24292F) | Done |
+| Custom skill creation | ![](https://img.shields.io/badge/-60%25-D29922?style=flat-square&labelColor=24292F) | In progress |
+| Scheduled automations | ![](https://img.shields.io/badge/-45%25-2F81F7?style=flat-square&labelColor=24292F) | In progress |
+| MCP server integration | ![](https://img.shields.io/badge/-30%25-2F81F7?style=flat-square&labelColor=24292F) | Next |
+| Agent ↔ hardware bridge | ![](https://img.shields.io/badge/-15%25-F85149?style=flat-square&labelColor=24292F) | Exploring |
+
+### Advanced Control Systems
+
+| Item | Progress | Status |
+|---|:---:|:---:|
+| State estimators & observers | ![](https://img.shields.io/badge/-25%25-2F81F7?style=flat-square&labelColor=24292F) | Studying |
+| LQR & optimal control | ![](https://img.shields.io/badge/-15%25-F85149?style=flat-square&labelColor=24292F) | Studying |
+| Adaptive & self-tuning control | ![](https://img.shields.io/badge/Not%20started%20-%20-F85149?style=flat-square&labelColor=24292F) | Planned |
+
+---
+
+<a name="activity"></a>
+
+## Activity
+
+Contribution graph, rendered as an animated snake. Regenerated automatically by
+GitHub Actions every six hours.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"
-       alt="Fitrinuryatinningrum's contribution snake animation"
+       alt="Contribution activity"
        width="100%" />
 </picture>
 
 ---
 
-## 📊 GitHub Stats
+<a name="stats"></a>
+
+## GitHub Stats
 
 <div align="center">
 
-[![Stats](https://github-readme-stats.vercel.app/api?username=fitrinuryatinningrum&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/fitrinuryatinningrum)
+[![Statistics](https://github-readme-stats.vercel.app/api?username=fitrinuryatinningrum&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&bg_color=24292F&title_color=2F81F7&text_color=C9D1D9&icon_color=8B949E&ring_color=2F81F7)](https://github.com/fitrinuryatinningrum)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fitrinuryatinningrum&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/fitrinuryatinningrum)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fitrinuryatinningrum&layout=compact&theme=default&hide_border=true&bg_color=24292F&title_color=2F81F7&text_color=C9D1D9)](https://github.com/fitrinuryatinningrum)
 
-</div>
+[![Contribution Streak](https://streak-stats.demolab.com?user=fitrinuryatinningrum&theme=default&hide_border=true&background_color=24292F)](https://git.io/streak-stats)
 
-<div align="center">
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fitrinuryatinningrum&theme=github-compact&hide_border=true&area=true&bg_color=24292F)](https://github.com/fitrinuryatinningrum)
 
-[![Streak](https://streak-stats.demolab.com?user=fitrinuryatinningrum&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fitrinuryatinningrum&theme=tokyo-night&hide_border=true&area=true)](https://github.com/fitrinuryatinningrum)
-
-</div>
-
-<div align="center">
-
-[![Top Langs Wide](https://github-readme-stats.vercel.app/api/top-langs-card/?username=fitrinuryatinningrum&theme=tokyonight&hide_border=true&layout=wide)](https://github.com/fitrinuryatinningrum)
-
-</div>
-
-<div align="center">
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=fitrinuryatinningrum&theme=dark&column=7&margin-w=8&margin-h=8&no-frame=true&no-bg=true)](https://github.com/fitrinuryatinningrum)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=fitrinuryatinningrum&theme=dark&column=7&margin-w=8&margin-h=8&no-frame=true&no-bg=true&no-bg=true)](https://github.com/fitrinuryatinningrum)
 
 </div>
 
 ---
 
-## 📬 Let's Connect
+<a name="contact"></a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-fitrinuryatinningrum-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitri-nuryatin-ningrum-356575377)
-[![Email](https://img.shields.io/badge/Email-fitrinuryatinningrum@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fitrinuryatinningrum@gmail.com)
+## Contact
 
-**Open to** collaborating on embedded + control + agent projects, and to any
+[![GitHub](https://img.shields.io/badge/GitHub-fitrinuryatinningrum-181717?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-fitrinuryatinningrum-0A66C2?style=flat-square&labelColor=24292F&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fitri-nuryatin-ningrum-356575377)
+[![Email](https://img.shields.io/badge/Email-fitrinuryatinningrum@gmail.com-EA4335?style=flat-square&labelColor=24292F&logo=gmail&logoColor=white)](mailto:fitrinuryatinningrum@gmail.com)
+
+Open to collaboration on embedded, control, and agent-based projects, and to
 interesting open-source issues.
 
 ---
 
 <div align="center">
 
-### 💜 Made with passion for machines that think.
+[![Profile Views](https://komarev.com/ghpvc/?username=fitrinuryatinningrum&label=Profile%20Views&color=2F81F7&style=flat)](https://github.com/fitrinuryatinningrum)
+[![Followers](https://img.shields.io/github/followers/fitrinuryatinningrum?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum)
+[![Repos](https://img.shields.io/github/repos/fitrinuryatinningrum?style=flat-square&labelColor=24292F&logo=github&logoColor=white)](https://github.com/fitrinuryatinningrum?tab=repositories)
 
-[![Visitors](https://komarev.com/ghpvc/?username=fitrinuryatinningrum&label=Profile%20Views&color=58A6FF&style=flat)](https://github.com/fitrinuryatinningrum)
-[![Followers](https://img.shields.io/github/followers/fitrinuryatinningrum?style=social&label=Followers)](https://github.com/fitrinuryatinningrum)
+*Built with care for machines that think.*
 
 </div>
 
 <!--
 ============================================================
-⚙️  CUSTOMIZATION NOTES — read this, then delete the comment
+  CUSTOMIZATION NOTES — read, edit, then delete this block
 ============================================================
 
-1. PERSENTASE SKILL — section "💪 Skill Proficiency"
-   ⚠️  PENTING: ada DUA angka per baris yang harus diubah BERSAMAAN,
-       kalau tidak badge dan tulisan jadi tidak sinkron:
-         a) di dalam badge  : -75%25-FFC300   → ubah angka + warna
-         b) kolom Persentase: 75%              → ubah angka
-   Warna per level:
-     🟢 4CAF50 = 80–100%   mastered
-     🟡 FFC300 = 50–79%    proficient
-     🔵 58A6FF = 25–49%    learning
-     🔴 F85149 = 0–24%     beginner
+1. SKILL PERCENTAGES — "Skills" section
+   Each row has ONE number: inside the badge URL
+   https://img.shields.io/badge/-80%25-3FB950
+                       ^^^^^ replace both number and colour
+   Colour scale:
+     3FB950 green  = 80–100%  proficient
+     D29922 amber  = 50–79%   competent
+     2F81F7 blue   = 25–49%   developing
+     F85149 red    =  0–24%   introductory
+   No separate percentage column is needed — the badge is the value.
 
-   Skill yang masih baru dipelajari ada di tabel terpisah
-   "🌱 Recently Started Learning" — angkanya sengaja rendah (5–15%).
-   Kalau sudah makin paham, PINDAHKAN baris itu ke tabel utama
-   dan naikkan persentagenya. Jangan hanya menaikkan angkanya
-   di tempat, karena akan terlihat tidak konsisten.
+2. ROADMAP PROGRESS — "Roadmap" section
+   Same single-number rule. For untouched items replace the value with:
+   https://img.shields.io/badge/Not%20started%20-%20-F85149
 
-2. PROGRESS BAR — section "🚀 Learning Journey"
-   Ubah angka di dalam badge Nx%25, lalu sesuaikan bar blok:
-     🟩 = sudah   ⬜ = belum   (pola: 10 blok = 100%)
-   Contoh 45%  →  🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜
-        70%  →  🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜
+3. STILL TO COMPLETE
+   • Obstacle Avoiding Robot + Titan-M2 CNC cards point to the profile
+     root. Replace with their real repository URLs once published:
+       obstacle-avoiding-robot  → https://github.com/<user>/<repo>
+       titan-m2-cnc             → https://github.com/<user>/<repo>
+     Also update the two Repository badges in those cards.
+   • LinkedIn URL is already set (fitri-nuryatin-ningrum-356575377).
 
-3. YANG MASIH PERLU KAMU ISI
-   • Link project — kartu Featured Projects masih mengarah ke halaman profil.
-     Ganti ke URL repo masing-masing setelah repo-nya dibuat.
-     (URL LinkedIn sudah diisi: fitri-nuryatin-ningrum-356575377)
+4. THEME
+   • Stats cards use an explicit dark background (bg_color=24292F)
+     so they read cleanly on both light and dark GitHub themes.
+     To go light-mode native, remove the bg_color / text_color params.
+   • Snake animation needs .github/workflows/snake.yml to have run at
+     least once (Actions → snake.yml → Run workflow). It is inactive
+     until then.
 
-4. LAIN-LAIN
-   • Tema stats : theme=tokyonight → radical, dracula, gruvbox, default
-   • Tema trofi : theme=dark → flat, onedark, gruvbox, monokai
-   • Snake animasi baru aktif setelah workflow .github/workflows/snake.yml
-     berjalan (Actions → snake.yml → Run workflow) — butuh 1 commit dulu.
-   • Kartu stats butuh koneksi internet & di-cache GitHub, jadi kadang
-     masih kosong di beberapa menit pertama. Itu normal.
+5. STATS CACHE
+   • Cards are cached by GitHub and may render blank for the first
+     few minutes after an edit. Hard reload before assuming breakage.
 ============================================================
 -->
